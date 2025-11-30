@@ -33,7 +33,7 @@ categories:
 
 简单解读一下吧！
 一个完整的节点由共识层和执行层组成，两层通过engine api进行通信，以太坊的每一个节点都是这样的架构，他们彼此间通过p2p网络实现通信
-![node-architecture](../../../images/node-architecture.png)
+![node-architecture](/images/node-architecture.png)
 
 ## 总结
 在对以太坊全节点有了初步认识后，我们就开始进入下一章———硬件篇！

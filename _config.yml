@@ -103,3 +103,4 @@ theme: butterfly
 deploy:
   type: git
   repository: https://github.com/YXZ252426/Yee.github.io
+  branch: main

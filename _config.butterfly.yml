@@ -56,14 +56,14 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /images/banana.PNG
   effect: false
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: /images/ethereum.png
 
 # The banner image of index page
 index_img:
@@ -149,7 +149,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -165,6 +165,8 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - Be Curious,Be Ambitious,Be Decisive
+    - 君子不器
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -289,7 +291,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/YXZ252426
   card_announcement:
     enable: true
     content: This is my Blog
@@ -850,7 +852,7 @@ activate_power_mode:
 # canvas_ribbon
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   # The size of ribbon
   size: 150
   # The opacity of ribbon (0 ~ 1)
@@ -1054,8 +1056,10 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+      - <link rel="stylesheet" href="/css/my.css">
   bottom:
     # - <script src="xxxx"></script>
+      - <script data-pjax defer src="/js/my.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
